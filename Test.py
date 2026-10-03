@@ -26,8 +26,8 @@ class Human:
         print(f"age is: {self.age} weight is: {self.weight}")
 
 ## Start of Main ##
-person = Test(age=-20, weight=150)
+person = Human(age=-20, weight=150)
 person.display()
 
-person2 = Test(age=25, weight=175)
+person2 = Human(age=25, weight=175)
 person2.display()
