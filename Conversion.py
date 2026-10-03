@@ -94,6 +94,8 @@ class Hanger:
 
 
 if __name__ == "__main__":
+
+## creating a hanger object and displaying its inventory before adding drones ##
     hanger = Hanger()
     hanger.displayHangerInventory()
 
@@ -103,8 +105,9 @@ if __name__ == "__main__":
         PriorityDrone("AeroWorks", 2024, 2.0),
         StandardDrone("Skyline Robotics", 2023, 8.0),
     ]
-
+## adding drones to the hanger using a for loop equal to the length of the drones list ##
     for drone in drones:
         hanger.addDrone(drone)
 
+## displaying the hanger inventory after adding drones ##
     hanger.displayHangerInventory()
