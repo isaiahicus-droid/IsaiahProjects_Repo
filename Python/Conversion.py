@@ -101,6 +101,8 @@ if __name__ == "__main__":
 
 ## creating drone objects and adding them to the hanger inventory ##
     drones = [
+
+## you can just instantiate the object directly ##
         PriorityDrone("Northstar Robotics", 2025, 4.5),
         PriorityDrone("AeroWorks", 2024, 2.0),
         StandardDrone("Skyline Robotics", 2023, 8.0),
@@ -111,3 +113,6 @@ if __name__ == "__main__":
 
 ## displaying the hanger inventory after adding drones ##
     hanger.displayHangerInventory()
+
+    drone1 = drones[0]
+    print(drone1)
